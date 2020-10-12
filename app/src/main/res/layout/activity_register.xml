@@ -5,6 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".registerActivity">
+    
+       <ProgressBar
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -12,5 +17,12 @@
         android:src="@drawable/download"
         app:layout_constraintEnd_toStartOf="parent"
         tools:layout_editor_absoluteY="85dp" />
+    
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading"
+     
+        android:textSize="20sp"/>
 
 </android.support.constraint.ConstraintLayout>
